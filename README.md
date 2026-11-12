@@ -31,10 +31,10 @@ The engine itself, written for this entry:
   **Elo 1464, W8 D2 L6** over the 16 games — wins against the depth-2/3/4
   and node-limited (100k/250k) house engines on both colours, draws
   against nodes-1M (black) and depth-2 (black). The house baseline
-  (sunfish's 4 KB entry) is published at Elo 1326 on the same instance.
+  (sunfish's 4 KB entry) is listed at Elo 1326 on the same instance.
 - Determinism: replaying game 1 in a fresh process reproduced all 39 of
   the engine's moves byte-for-byte.
-- Timing on a throttled shared VM: mean think 2.1 s a move, max 3.3 s
+- Timing on a throttled shared VM: average think 2.1 s a move, max 3.3 s
   (the per-move cap is 10 s); no illegal moves, no hangs.
 
 ## Round 2 rebuild (12 Nov 2026)
